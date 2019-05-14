@@ -8,7 +8,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 # Read image
-img = cv2.imread('stock.jpeg')
+img = cv2.imread('assets/images/stock.jpeg')
 
 # Convert image to gray scale
 gray_picture = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
